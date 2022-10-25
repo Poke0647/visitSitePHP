@@ -1,24 +1,33 @@
 <?php
 
-include "head1.php";
+include "php/head1.php";
 
-    $p = $_GET['p'];
+$p = 'main';
+$p = $_GET['p'];
+  
 
-    if (p == 'main') {
-        include "head_m.php";
-        include "subheader_m.php";
-        include "main_m.php";
-    }
-    elseif (p == 'port') {
-        include "head_p.php";
-        include "subheader_p.php";
-        include "main_p.php";
-    }
-    elseif (p == 'cont') { 
-        include "main_i.php";
-        include "subheader.php";
-        include "main_c.php";
-    }
+  if ($p == 'main') {
+    include "php/head_m.php";
+  }
+  elseif ($p == 'port') {
+    include "php/head_p.php";
+  }
+  elseif ($p == 'cont') {
+    include "php/main_c.php";
+  }
 
-include "footer.php";
+include "php/header.php";
+
+if($p == 'main'){
+  include "php/subheader_m.php";
+  include "php/main_m.php";
+} elseif ($p == 'port') {
+  include "php/subheader_p.php";
+  include "php/main_p.php";
+} elseif ($p == 'cont') {
+  include "php/subheader_c.php";
+  include "php/main_c.php";
+}
+
+include "php/footer.php";
 ?>
