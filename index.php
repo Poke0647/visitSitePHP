@@ -2,11 +2,11 @@
 
 include ("./general/head1.php");
 
-$p = 'main';
+$p = "main";
 $p = $_GET['p'];
   
 
-if ($p == 'main') {
+if ($p == "main") {
   include ("./main/head_m.php");
 } elseif ($p == 'port') {
   include ("./port/head_p.php");
