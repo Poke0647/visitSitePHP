@@ -27,6 +27,6 @@ if($p == 0){
   include "./contacts/subheader_c.php";
   include "./contacts/main_c.php";
 }
-//dnjdn
+
 include "./general/footer.php";
 ?>
