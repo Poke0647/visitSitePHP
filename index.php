@@ -12,7 +12,7 @@ elseif ($p == 1) {
   include "./port/head_p.php";
 }
 elseif ($p == 2) {
-  include "./cont/head_c.php";
+  include "./contacts/head_c.php";
 }
 
 include "./general/header.php";
