@@ -10,9 +10,8 @@
                         </div>
                         <div class="mmenu_block">
                             <ul class="mmenu">
-                                <li><a href="index.php$p=main">Главная</a></li>
-                                <li><a href="index.php$p=port">Портфолио</a></li>
-                                <li><a href="index.php$p=cont">Контакты</a></li>
-				<li><a href="ftp">ftp</a></li>
+                                <li><a href="index.php?p=0">Главная</a></li>
+                                <li><a href="index.php?p=1">Портфолио</a></li>
+                                <li><a href="index.php?p=2">Контакты</a></li>
                             </ul>
                            
