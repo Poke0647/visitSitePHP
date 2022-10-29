@@ -4,18 +4,21 @@ include "./general/head1.php";
 
 //$p = 0;
 $p = $_GET['p'];  
+$loginn = $_GET['loginn'];
 
 if ($p == 0) {
   include "./main/head_m.php";
-}
-elseif ($p == 1) {
+} elseif ($p == 1) {
   include "./port/head_p.php";
-}
-elseif ($p == 2) {
+} elseif ($p == 2) {
   include "./contacts/head_c.php";
 }
 
 include "./general/header.php";
+
+if ($loginn == 1){
+  include "./login/login.php";
+}
 
 if($p == 0){
   include "./main/subheader_m.php";
