@@ -176,6 +176,7 @@ li {
     height: auto;
 }
 .loginForm{
+    background-color: black;
     position: static;
     width: 50vw;
     height: 50vh;
