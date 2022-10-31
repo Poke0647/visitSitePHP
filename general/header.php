@@ -13,5 +13,6 @@
                                 <li><a href="index.php?p=0">Главная</a></li>
                                 <li><a href="index.php?p=1">Портфолио</a></li>
                                 <li><a href="index.php?p=2">Контакты</a></li>
+                                <li><a href="index.php?loginn=1">Вход</a></li>
                             </ul>
                            

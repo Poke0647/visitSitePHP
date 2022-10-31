@@ -3,7 +3,8 @@
 include "./general/head1.php";
 
 //$p = 0;
-$p = $_GET['p'];  
+$p = $_GET['p'];
+$loginn = 0;  
 $loginn = $_GET['loginn'];
 
 if ($p == 0) {
@@ -18,6 +19,8 @@ include "./general/header.php";
 
 if ($loginn == 1){
   include "./login/login.php";
+} elseif ($loginn == 2){
+  include "./login/signup.php";
 }
 
 if($p == 0){

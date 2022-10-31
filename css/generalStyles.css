@@ -168,3 +168,15 @@ li {
 .footer p{
     margin: 0;
 }
+
+.loginFormBg{
+    position: absolute;
+    background-color: rgba(31, 31, 31, 0.807);
+    width: auto;
+    height: auto;
+}
+.loginForm{
+    position: static;
+    width: 50vw;
+    height: 50vh;
+}
