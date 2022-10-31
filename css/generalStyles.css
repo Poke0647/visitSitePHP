@@ -172,12 +172,12 @@ li {
 .loginFormBg{
     position: absolute;
     background-color: rgba(31, 31, 31, 0.807);
-    width: auto;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
 }
 .loginForm{
     background-color: black;
     position: static;
-    width: 50vw;
-    height: 50vh;
+    width: 50%;
+    height: 50%;
 }
