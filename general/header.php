@@ -14,6 +14,6 @@
                                 <li><a href="index.php?p=1">Портфолио</a></li>
                                 <li><a href="index.php?p=2">Контакты</a></li>
                                 <li><a href="index.php?loginn=1">Вход</a></li>
-                                <li><a href="">FTP</a></li>
+                                <li><a href="./ftp">FTP</a></li>
                             </ul>
                            
