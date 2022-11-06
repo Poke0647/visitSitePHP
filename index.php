@@ -1,6 +1,6 @@
 <?php
 include "./general/head1.php";
-
+session_start();
 //$p = 0;
 
 if(!isset($_SESSION['p'])){
