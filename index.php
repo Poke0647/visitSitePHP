@@ -32,14 +32,12 @@ if ($loginn == 1){
 } elseif ($loginn == 2){
   include "./login/signup.php";
 } else {
-  echo("
     <style type="text/css">
         .nav{
             backdrop-filter: blur(20px); 
             -webkit-backdrop-filter: blur(20px);
         }
     </style>
-  ")
 }
 }
 
