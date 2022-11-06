@@ -1,11 +1,3 @@
-<?php if ($loginn != 1) {
-        <style type="text/css">
-            .nav{
-                backdrop-filter: blur(20px); 
-                -webkit-backdrop-filter: blur(20px);
-            }
-        </style>
-}?>
 <body>
     <header class="header">
     
