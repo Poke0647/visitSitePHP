@@ -182,7 +182,9 @@ li {
     height: 100vh;
 }
 .loginForm{
-    margin: 30vw;
+    /* margin: 5px; */
+    border-style: solid;
+    border-width: 1rem;
     padding: 5px;
     background-color: black;
     position: static;
