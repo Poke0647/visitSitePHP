@@ -184,8 +184,8 @@ li {
 .loginForm{
     /* margin: 5px; */
     width: 33%;
-    margin-top: 33.5%;
-    margin-bottom: 33.5%;
+    margin-top: 33.5vh;
+    margin-bottom: 33.5vh;
     border-style: solid;
     border-width: 0.3rem;
     border-radius: 3rem;
