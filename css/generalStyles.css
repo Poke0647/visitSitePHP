@@ -213,10 +213,12 @@ li {
     border-image: -webkit-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%) 1;
     border-image: -moz-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%) 1;
     border-image: linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%) 1;
+    content: '';
     border-radius: 16px;
 }
 
  .loginForm input{
+    max-width: 50%;
     min-width: 5rem;
     margin-left: 5rem;
     margin-right: 5rem;
