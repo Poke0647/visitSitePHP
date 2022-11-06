@@ -8,9 +8,9 @@ session_start();
 $p = $_GET['p'];
   
 // $loginn = 0;  
-
+$loginn = $_GET['loginn'];
 if(isset($_SESSION['p'])){
-  $loginn = $_GET['loginn'];
+  
   if (isset($loginn)){
     $p = $_SESSION['p'];
 
