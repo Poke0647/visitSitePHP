@@ -172,7 +172,8 @@ li {
 .loginFormBg{
     position: absolute;
     top: 0;
-    right: 0;
+    /* right: 0; */
+    left: 0;
     margin: 5px;
     padding: 5px;
     background-color: rgba(31, 31, 31, 0.807);
