@@ -221,8 +221,8 @@ li {
  .loginForm input{
     max-width: 50%;
     min-width: 5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 25%;
+    margin-right: 25%rem;
  }
 
  .inp {
