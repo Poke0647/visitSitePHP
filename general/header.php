@@ -1,13 +1,13 @@
 <body>
     <header class="header">
-    if ($loginn != 1) {
+    <?php if ($loginn != 1) { ?>
         <style type="text/css">
             .nav{
                 backdrop-filter: blur(20px); 
                 -webkit-backdrop-filter: blur(20px);
             }
         </style>
-    }
+    <?php} ?>
         <nav class="nav" >
             <div class="vis_nav">
                 <div class="containder-fluid">
