@@ -1,24 +1,25 @@
 <?php
-include "./general/head1.php";
 session_start();
-//$p = 0;
-
-
 
 $p = $_GET['p'];
-  
-// $loginn = 0;
 
 //Данный кусок вместе с session_start(); позволяет после вызова login.php
 // и выхода из него оставаться на странице, которая была только что активна
 //--------------
 $loginn = $_GET['loginn'];
 if(isset($_SESSION['p'])){
-  
   if (isset($loginn)){
     $p = $_SESSION['p'];
-
   }
+}
+//--------------
+
+include "./general/head1.php";
+
+//Когда окно входа не открыто, блюр применяется к хедеру
+//--------------
+if ($loginn < 1){
+  include "./login/cssForLogin.php";
 }
 //--------------
 
@@ -28,10 +29,6 @@ if ($p == 0) {
   include "./port/head_p.php";
 } elseif ($p == 2) {
   include "./contacts/head_c.php";
-}
-
-if ($loginn < 1){
-  include "./login/cssForLogin.php";
 }
 
 include "./general/header.php";
