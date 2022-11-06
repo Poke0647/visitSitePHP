@@ -193,5 +193,5 @@ li {
     padding: 5px;
     background-color: black;
     position: static;
-    width: 50%;
+    /* width: 50%; */
 }
