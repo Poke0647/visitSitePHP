@@ -177,7 +177,7 @@ li {
     left: 0;
     
     background-color: rgba(24, 24, 24, 0.904);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(15px);
     width: 100vw;
     height: 100vh;
 }
