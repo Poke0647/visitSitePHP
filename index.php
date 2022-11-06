@@ -1,11 +1,17 @@
 <?php
-session_start();
 include "./general/head1.php";
 
 //$p = 0;
-$p = $_GET['p'];
-$loginn = 0;  
-$loginn = $_GET['loginn'];
+
+if(!isset($_SESSION['p'])){
+  $p = $_GET['p'];
+  $loginn = $_GET['loginn'];
+}
+
+
+// $loginn = 0;  
+
+
 
 if ($p == 0) {
   include "./main/head_m.php";
@@ -35,4 +41,6 @@ if($p == 0){
 }
 
 include "./general/footer.php";
+
+$_SESSION['p'] = $p;
 ?>
