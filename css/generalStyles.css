@@ -188,7 +188,9 @@ li {
     margin-bottom: 33.5vh;
 
     border-style: solid;
-    border-width: -0.3rem;
+    /* border-width: 0.3rem; */
+    box-shadow: 0.5rem;
+    box-shadow: color(rgb(242, 255, 206));
     border-radius: 3rem;
     padding: 5px;
     background-color: black;
