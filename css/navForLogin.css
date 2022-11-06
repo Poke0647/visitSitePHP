@@ -4,5 +4,6 @@
 }
 
 #element::-webkit-scrollbar{
-    display: none;
+    /* display: none; */
+    width: 0;
 }
