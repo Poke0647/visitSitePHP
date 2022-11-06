@@ -194,10 +194,7 @@ li {
     border-style: solid;
     border-width: 0.3rem;
     border-radius: 3rem;
-    border-image: -webkit-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%) 1;
-    border-image: -moz-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%) 1;
-    border-image: linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%) 1;
-
+    
     
     padding: 5px;
     background-color: rgb(10, 5, 20);
@@ -208,6 +205,14 @@ li {
     background: -moz-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
     background: linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%); */
 }
+
+.loginForm::after{
+    border-image: -webkit-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%) 1;
+    border-image: -moz-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%) 1;
+    border-image: linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%) 1;
+
+}
+
  .loginForm input{
     min-width: 5rem;
     margin-left: 5rem;
