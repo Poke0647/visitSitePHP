@@ -25,14 +25,16 @@ if ($p == 0) {
   include "./contacts/head_c.php";
 }
 
+if ($loginn < 1){
+  include "./login/cssForLogin.php";
+}
+
 include "./general/header.php";
 
 if ($loginn == 1){
   include "./login/login.php";
 } elseif ($loginn == 2){
   include "./login/signup.php";
-} else {
-  include "../css/navForLogin";
 }
 
 
