@@ -1,5 +1,5 @@
 <?php
-
+session_start;
 include "./general/head1.php";
 
 //$p = 0;
