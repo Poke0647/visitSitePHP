@@ -196,7 +196,7 @@ li {
     
     border-radius: 3rem;
     padding: 5px;
-    background-color: black;
+    background-color: rgb(10, 5, 20);
     position: static;
     /* width: 50%; */
 }
