@@ -203,7 +203,7 @@ li {
     position: static;
     /* width: 50%; */
 
-    background: -webkit-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
+    /* background: -webkit-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
     background: -moz-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
-    background: linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
+    background: linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%); */
 }
