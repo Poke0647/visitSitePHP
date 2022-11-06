@@ -176,7 +176,7 @@ li {
     /* right: 0; */
     left: 0;
     
-    background-color: rgba(31, 31, 31, 0.87);
+    background-color: rgba(24, 24, 24, 0.904);
     backdrop-filter: blur(30px);
     width: 100vw;
     height: 100vh;
