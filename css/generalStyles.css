@@ -182,7 +182,7 @@ li {
     height: 100vh;
 }
 .loginForm{
-    margin: 30%;
+    margin: 30vw;
     padding: 5px;
     background-color: black;
     position: static;
