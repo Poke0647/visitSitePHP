@@ -193,10 +193,17 @@ li {
 
     border-style: solid;
     border-width: 0.3rem;
-    
+    border-color: -webkit-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
+    border-color: -moz-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
+    border-color: linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
+
     border-radius: 3rem;
     padding: 5px;
     background-color: rgb(10, 5, 20);
     position: static;
     /* width: 50%; */
+
+    background: -webkit-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
+    background: -moz-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
+    background: linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
 }
