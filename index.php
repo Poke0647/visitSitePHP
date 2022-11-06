@@ -3,15 +3,16 @@ include "./general/head1.php";
 session_start();
 //$p = 0;
 
-if(!isset($_SESSION['p'])){
-  // $p = $_GET['p'];
-  $loginn = $_GET['loginn'];
-}
 
 
+$p = $_GET['p'];
+  
 // $loginn = 0;  
 
-
+if(isset($_SESSION['p'])){
+  $loginn = $_GET['loginn'];
+  $p = $_SESSION['p'];
+}
 
 if ($p == 0) {
   include "./main/head_m.php";
