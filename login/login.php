@@ -4,7 +4,7 @@
         <form name="login" method="post" action="login.php">
             <input type="text" name="login"><br>
             <input type="password" name="passwd">
-            <input type="sumbit">
+            <input type="submit" name="send">
         </form>
         <a href="index.php?loginn=0">Назад</a>
     </div>
