@@ -3,6 +3,6 @@
     -webkit-backdrop-filter: blur(20px);
 }
 
-::-webkit-scrollbar{
+#element::-webkit-scrollbar{
     display: none;
 }
