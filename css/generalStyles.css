@@ -209,7 +209,7 @@ li {
     background: linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%); */
 }
  .loginForm input{
-    width: 50%;
+    min-width: 50%;
     margin-left: 25%;
     margin-right: 25%;
  }
