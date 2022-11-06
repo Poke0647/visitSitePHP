@@ -1,8 +1,9 @@
 <div class="imenu">
                                 <ul class="mmenu">
-                                    <li><a href="#welcome">Добро пожаловать</a></li>
-                                    <li><a href="#why">Зачем?</a></li>
-                                    <li><a href="#info">Инфо</a></li>
+                                    <li><a href="#pv">Фото/Видео</a></li>
+                                    <li><a href="#graphics">Графика</a></li>
+                                    <li><a href="#it">IT</a></li>
+                                    <li><a href="#links">Ссылки</a></li>
                                 </ul>
                             </div>
                         </div>
