@@ -8,6 +8,25 @@ body {
     margin: 0;
 
 }
+.loginFormBg{
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+    left: 0;
+    
+    background-color: rgba(31, 31, 31, 0.807);
+    backdrop-filter: blur(20px);
+    width: 100vw;
+    height: 100vh;
+}
+.loginForm{
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+    position: static;
+    width: 50%;
+    height: 50%;
+}
 .pageName h1{
     letter-spacing: 0.03em;
     /* padding-left: 47px; */
@@ -169,22 +188,3 @@ li {
     margin: 0;
 }
 
-.loginFormBg{
-    position: absolute;
-    top: 0;
-    /* right: 0; */
-    left: 0;
-    
-    background-color: rgba(31, 31, 31, 0.807);
-    backdrop-filter: blur(20px);
-    width: 100vw;
-    height: 100vh;
-}
-.loginForm{
-    margin: 5px;
-    padding: 5px;
-    background-color: black;
-    position: static;
-    width: 50%;
-    height: 50%;
-}
