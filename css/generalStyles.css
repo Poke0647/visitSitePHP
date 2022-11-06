@@ -214,7 +214,7 @@ li {
     margin-right: 25%;
  }
 
- .loginForm::-webkit-scrollbar{
+ .loginForm ::-webkit-scrollbar{
     display: none;
     /* width: 0; */
 }
