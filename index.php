@@ -11,7 +11,10 @@ $p = $_GET['p'];
 
 if(isset($_SESSION['p'])){
   $loginn = $_GET['loginn'];
-  $p = $_SESSION['p'];
+  if ($loginn != 0){
+    $p = $_SESSION['p'];
+
+  }
 }
 
 if ($p == 0) {
