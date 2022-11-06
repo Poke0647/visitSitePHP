@@ -214,6 +214,7 @@ li {
     border-image: -moz-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%) 1;
     border-image: linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%) 1;
     content: '';
+    z-index: -1;
     border-radius: 16px;
 }
 
@@ -225,5 +226,5 @@ li {
  }
 
  .inp {
-    
+
  }
