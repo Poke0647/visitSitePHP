@@ -7,7 +7,11 @@ session_start();
 
 $p = $_GET['p'];
   
-// $loginn = 0;  
+// $loginn = 0;
+
+//Данный кусок вместе с session_start(); позволяет после вызова login.php
+// и выхода из него оставаться на странице, которая была только что активна
+//--------------
 $loginn = $_GET['loginn'];
 if(isset($_SESSION['p'])){
   
@@ -16,6 +20,7 @@ if(isset($_SESSION['p'])){
 
   }
 }
+//--------------
 
 if ($p == 0) {
   include "./main/head_m.php";
