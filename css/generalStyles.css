@@ -213,8 +213,3 @@ li {
     margin-left: 25%;
     margin-right: 25%;
  }
-
- .loginForm ::-webkit-scrollbar{
-    display: none;
-    /* width: 0; */
-}
