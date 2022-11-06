@@ -4,7 +4,7 @@ session_start();
 //$p = 0;
 
 if(!isset($_SESSION['p'])){
-  $p = $_GET['p'];
+  // $p = $_GET['p'];
   $loginn = $_GET['loginn'];
 }
 
