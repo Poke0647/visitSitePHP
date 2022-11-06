@@ -186,6 +186,7 @@ li {
     height: 33vh;
     margin-top: 33.5vh;
     margin-bottom: 33.5vh;
+
     border-style: solid;
     border-width: 0.3rem;
     border-radius: 3rem;
@@ -193,5 +194,4 @@ li {
     background-color: black;
     position: static;
     width: 50%;
-    height: 50%;
 }
