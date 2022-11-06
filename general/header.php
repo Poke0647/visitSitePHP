@@ -1,9 +1,6 @@
 <body>
     <header class="header">
-        <nav class="nav" <?php if($p != 1){     echo backdrop-filter: blur(20px);
-                                                echo -webkit-backdrop-filter: blur(20px);
-        
-                            }?>>
+        <nav class="nav" >
             <div class="vis_nav">
                 <div class="containder-fluid">
                     <div class="nav__box">
