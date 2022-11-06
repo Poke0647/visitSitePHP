@@ -20,6 +20,8 @@ include "./general/head1.php";
 //--------------
 if ($loginn < 1){
   include "./login/cssForLogin.php";
+} else {
+  include "./login/whenLogInIsOn.php";
 }
 //--------------
 
