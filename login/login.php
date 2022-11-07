@@ -8,7 +8,7 @@
 
         if (isset($_POST["login"]) and isset($_POST["passwd"])){
             $login = $_POST["login"];
-            $passwd = $_POST["passwd"];
+            $passwd = CRYPT($_POST["passwd"]);
             echo "login: $login <br> password: $passwd";
         }
         
