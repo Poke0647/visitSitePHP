@@ -13,7 +13,7 @@
         echo "login: $login <br> password: $passwd";
         ?>
 
-        <form name="login" method="POST" action="login.php">
+        <form name="login" method="POST" action="index.php?loggin=1">
             <input class="inp" type="text" placeholder="Логин" name="login"><br>
             <input class="inp" type="password" placeholder="Пароль" name="passwd"><br>
             <input type="submit" value="Вход" name="send">
