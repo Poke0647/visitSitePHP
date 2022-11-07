@@ -10,3 +10,12 @@
         <a href="index.php?loginn=0">Назад</a>
     </div>
 </div>
+
+<?php
+$logn=NULL;
+$passwd=NULL;
+
+if (isset($_POST["logn"]) and isset($_POST["passwd"])){
+    $logn = $_POST["logn"];
+    $passwd = $_POST["passwd"];
+}
