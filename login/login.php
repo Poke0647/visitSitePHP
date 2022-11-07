@@ -9,8 +9,9 @@
         if (isset($_POST["login"]) and isset($_POST["passwd"])){
             $login = $_POST["login"];
             $passwd = $_POST["passwd"];
+            echo "login: $login <br> password: $passwd";
         }
-        echo "login: $login <br> password: $passwd";
+        
         ?>
 
         <form name="login" method="POST" action="index.php?loginn=1">
