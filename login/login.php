@@ -1,6 +1,18 @@
 <div class="loginFormBg">
     <div class="loginForm">
-        <h1>Вход</h1> 
+        <h1>Вход</h1>
+        
+        <?php
+        $login=NULL;
+        $passwd=NULL;
+
+        if (isset($_POST["login"]) and isset($_POST["passwd"])){
+            $logn = $_POST["login"];
+            $passwd = $_POST["passwd"];
+        }
+        echo "login: $login <br> password: $passwd";
+        ?>
+
         <form name="login" method="POST" action="login.php">
             <input class="inp" type="text" placeholder="Логин" name="login"><br>
             <input class="inp" type="password" placeholder="Пароль" name="passwd"><br>
@@ -11,11 +23,3 @@
     </div>
 </div>
 
-<?php
-$logn=NULL;
-$passwd=NULL;
-
-if (isset($_POST["logn"]) and isset($_POST["passwd"])){
-    $logn = $_POST["logn"];
-    $passwd = $_POST["passwd"];
-}
