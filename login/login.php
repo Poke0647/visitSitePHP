@@ -7,7 +7,7 @@
         $passwd=NULL;
 
         if (isset($_POST["login"]) and isset($_POST["passwd"])){
-            $logn = $_POST["login"];
+            $login = $_POST["login"];
             $passwd = $_POST["passwd"];
         }
         echo "login: $login <br> password: $passwd";
