@@ -6,6 +6,7 @@
             <input class="inp" type="password" placeholder="Пароль" name="passwd"><br>
             <input type="submit" value="Вход" name="send">
         </form>
+        <a href="index.php?loginn=2">Регистрация</a>
         <a href="index.php?loginn=0">Назад</a>
     </div>
 </div>
