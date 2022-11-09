@@ -11,7 +11,7 @@
             $passwd = CRYPT($_POST["passwd"]);
             echo "login: $login <br> password: $passwd";
 
-            if (mysql_connect("95.154.67.183", "pavelisaenko_xyz_login", "George_Orwel_1984", "visit_site_db")){
+            if (mysql_connect("95.154.67.183", "pavelisaenko_xyz_login", "George_Orwel_1984", "visit_site_db") == true){
                 echo "Connection with database established!";
             } else {
                 echo "Error: Can not connect to database! " .mysql_connect_error();
