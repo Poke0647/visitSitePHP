@@ -36,15 +36,13 @@ if ($p == 0) {
   include "./contacts/head_c.php";
 }
 
-
+include "./general/header.php";
 
 if ($loginn == 1){
   include "./login/login.php";
 } elseif ($loginn == 2){
   include "./login/signup.php";
 }
-
-include "./general/header.php";
 
 if($p == 0){
   include "./main/subheader_m.php";
