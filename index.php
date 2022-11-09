@@ -7,10 +7,12 @@ $p = $_GET['p'];
 //Данный кусок вместе с session_start(); позволяет после вызова login.php
 // и выхода из него оставаться на странице, которая была только что активна
 //--------------
+
 $loginn = $_GET['loginn'];
 if(isset($_SESSION['p'])){
   if (isset($loginn)){
     $p = $_SESSION['p'];
+    $username = $_SESSION['username'];
   }
 }
 //--------------
