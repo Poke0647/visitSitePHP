@@ -15,11 +15,10 @@
 
             if ($link == true){
                 echo "Connection with database established!";
-              } else {
+                
+            } else {
                 echo "Error: " .mysqli_connect_error();
-              }
-              
-
+            }
         }
         
         ?>
