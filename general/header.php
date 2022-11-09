@@ -15,13 +15,14 @@
                                 <li><a href="index.php?p=1">Портфолио</a></li>
                                 <li><a href="index.php?p=2">Контакты</a></li>
                                
-                                <?php $username = $_SESSION['username'];
-                               if (isset($username) == true) {
-                                echo '<li><a href="index.php?loginn=1">', $username, '</a></li>';
-                               } else {
-                                echo '<li><a href="index.php?loginn=1">Вход</a></li>';
-                               }
-                               ?>
+                                <?php 
+                                // $username = $_SESSION['username'];
+                                if (isset($username) == true) {
+                                    echo '<li><a href="index.php?loginn=1">', $username, '</a></li>';
+                                } else {
+                                    echo '<li><a href="index.php?loginn=1">Вход</a></li>';
+                                }
+                                ?>
                                
                                 <li><a href="./ftp">FTP</a></li>
                             </ul>
