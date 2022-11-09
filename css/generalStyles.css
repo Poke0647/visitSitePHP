@@ -180,6 +180,7 @@ li {
     backdrop-filter: blur(15px);
     width: 100vw;
     height: 100vh;
+    z-index: 9999;
 }
 .loginForm{
     /* margin: 5px; */
@@ -199,6 +200,8 @@ li {
     padding: 5px;
     background-color: rgb(10, 5, 20);
     position: static;
+
+    z-index: 10000;
     /* width: 50%; */
 
     /* background: -webkit-linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%);
@@ -206,7 +209,7 @@ li {
     background: linear-gradient(45deg, rgb(0, 5, 67) 14%, rgb(56, 127, 129) 85%); */
 }
 /* it needs to be corrected */
-.loginForm::after{
+/* .loginForm::after{
     position: absolute;
     top: -4px; bottom: -4px;
     left: -4px; right: -4px;
@@ -216,7 +219,7 @@ li {
     content: '';
     z-index: -1;
     border-radius: 16px;
-}
+} */
 
  .loginForm input{
     max-width: 50%;
