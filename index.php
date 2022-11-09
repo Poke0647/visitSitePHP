@@ -63,6 +63,6 @@ include "./general/footer.php";
         
 
 
-
+$_SESSION['username'] = $username;
 $_SESSION['p'] = $p;
 ?>
