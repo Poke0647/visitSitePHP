@@ -16,7 +16,7 @@
                                 <li><a href="index.php?p=2">Контакты</a></li>
                                
                                 <?php 
-                                $username = $_SESSION['username'];
+                                // $username = $_SESSION['username'];
                                 if (isset($username)) {
                                     echo '<li><a href="index.php?loginn=1">', $username, '</a></li>';
                                 } else {
@@ -26,4 +26,3 @@
                                
                                 <li><a href="./ftp">FTP</a></li>
                             </ul>
-                           
