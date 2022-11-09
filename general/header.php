@@ -17,7 +17,7 @@
                                
                                 <?php 
                                 // $username = $_SESSION['username'];
-                                if (isset($username) == true) {
+                                if (isset($username)) {
                                     echo '<li><a href="index.php?loginn=1">', $username, '</a></li>';
                                 } else {
                                     echo '<li><a href="index.php?loginn=1">Вход</a></li>';
