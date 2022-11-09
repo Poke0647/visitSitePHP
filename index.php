@@ -56,5 +56,11 @@ if($p == 0){
 
 include "./general/footer.php";
 
+
+
+        
+
+
+
 $_SESSION['p'] = $p;
 ?>
