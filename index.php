@@ -12,8 +12,12 @@ $loginn = $_GET['loginn'];
 if(isset($_SESSION['p'])){
   if (isset($loginn)){
     $p = $_SESSION['p'];
-    $username = $_SESSION['username'];
+    
   }
+}
+
+if (isset($_SESSION['username'])){
+  $username = $_SESSION['username'];
 }
 //--------------
 
