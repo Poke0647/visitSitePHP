@@ -12,7 +12,7 @@ $loginn = $_GET['loginn'];
 if(isset($_SESSION['p'])){
   if (isset($loginn)){
     $p = $_SESSION['p'];
-    
+    $username = $_SESSION['username'];
   }
 }
 //--------------
@@ -62,6 +62,6 @@ include "./general/footer.php";
         
 
 
-$_SESSION['username'] = $username;
+
 $_SESSION['p'] = $p;
 ?>

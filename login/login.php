@@ -11,7 +11,8 @@
             $passwd = CRYPT($_POST["passwd"]);
             echo "login: $login <br> password: $passwd <br>";
             $username = $login;
-            $username = $_SESSION['username'];
+            
+
             $link = new mysqli("95.154.67.183", "pavelisaenko_xyz_login", "George_Orwel_1984", "visit_site_db");
 
             if ($link == true){
@@ -21,7 +22,8 @@
                 echo "Error: " .mysqli_connect_error();
             }
         }
-        
+
+        $_SESSION['username'] = $username;
         ?>
 
         <form name="login" method="POST" action="index.php?loginn=0">
