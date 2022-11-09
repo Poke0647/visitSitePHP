@@ -1,14 +1,6 @@
 <div class="loginFormBg">
     <div class="loginForm">
         <h1>Вход</h1>
-        
-        <?php
-        // $login=NULL;
-        // $passwd=NULL;
-
-        
-        ?>
-
         <form name="login" method="POST" action="index.php">
             <input class="inp" type="text" placeholder="Логин" name="login"><br>
             <input class="inp" type="password" placeholder="Пароль" name="passwd"><br>

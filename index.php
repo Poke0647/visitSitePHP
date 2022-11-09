@@ -79,9 +79,11 @@ if (isset($_POST["login"]) and isset($_POST["passwd"])){
   } else {
       echo "Error: " .mysqli_connect_error();
   }
+
+  $_SESSION['username'] = $username;
 }
 
-$_SESSION['username'] = $username;
+
 
 
 $_SESSION['p'] = $p;
