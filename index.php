@@ -18,25 +18,6 @@ if(isset($_SESSION['p'])){
 
 if (isset($_SESSION['username'])){
   $username = $_SESSION['username'];
-} else {
-  if (isset($_POST["login"]) and isset($_POST["passwd"])){
-    $login = $_POST["login"];
-    $passwd = CRYPT($_POST["passwd"]);
-    echo "login: $login <br> password: $passwd <br>";
-    $username = $login;
-    
-  
-    $link = new mysqli("95.154.67.183", "pavelisaenko_xyz_login", "George_Orwel_1984", "visit_site_db");
-  
-    if ($link == true){
-        echo "Connection with database established!";
-        
-    } else {
-        echo "Error: " .mysqli_connect_error();
-    }
-  
-    $_SESSION['username'] = $username;
-  }
 }
 //--------------
 
@@ -57,6 +38,25 @@ if ($p == 0) {
   include "./port/head_p.php";
 } elseif ($p == 2) {
   include "./contacts/head_c.php";
+}
+
+if (isset($_POST["login"]) and isset($_POST["passwd"])){
+  $login = $_POST["login"];
+  $passwd = CRYPT($_POST["passwd"]);
+  echo "login: $login <br> password: $passwd <br>";
+  $username = $login;
+  
+
+  $link = new mysqli("95.154.67.183", "pavelisaenko_xyz_login", "George_Orwel_1984", "visit_site_db");
+
+  if ($link == true){
+      echo "Connection with database established!";
+      
+  } else {
+      echo "Error: " .mysqli_connect_error();
+  }
+
+  $_SESSION['username'] = $username;
 }
 
 include "./general/header.php";
