@@ -10,7 +10,7 @@
             $login = $_POST["login"];
             $passwd = CRYPT($_POST["passwd"]);
             echo "login: $login <br> password: $passwd <br>";
-
+            $username = $login;
             $link = new mysqli("95.154.67.183", "pavelisaenko_xyz_login", "George_Orwel_1984", "visit_site_db");
 
             if ($link == true){
