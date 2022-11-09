@@ -15,7 +15,7 @@
                                 <li><a href="index.php?p=1">Портфолио</a></li>
                                 <li><a href="index.php?p=2">Контакты</a></li>
                                <?php $username = "kak";
-                               echo (isset($username) == true) ? "<li><a href=""index.php?loginn=1"">$username</a></li>" : "<li><a href=""index.php?loginn=1"">Вход</a></li>";  ?>
+                               echo (isset($username) == true) ? "<li><a href="`index.php?loginn=1`">$username</a></li>" : "<li><a href="`index.php?loginn=1`">Вход</a></li>";  ?>
                                 
                                 
                                
