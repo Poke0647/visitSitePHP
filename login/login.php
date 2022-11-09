@@ -3,8 +3,8 @@
         <h1>Вход</h1>
         
         <?php
-        $login=NULL;
-        $passwd=NULL;
+        // $login=NULL;
+        // $passwd=NULL;
 
         if (isset($_POST["login"]) and isset($_POST["passwd"])){
             $login = $_POST["login"];
