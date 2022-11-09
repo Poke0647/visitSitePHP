@@ -11,7 +11,9 @@
             $passwd = CRYPT($_POST["passwd"]);
             echo "login: $login <br> password: $passwd <br>";
 
-            if (mysqli_connect("95.154.67.183", "pavelisaenko_xyz_login", "George_Orwel_1984", "visit_site_db") == true){
+            $link = new mysqli("95.154.67.183", "pavelisaenko_xyz_login", "George_Orwel_1984", "visit_site_db");
+
+            if ($link == true){
                 echo "Connection with database established!";
               } else {
                 echo "Error: " .mysqli_connect_error();
