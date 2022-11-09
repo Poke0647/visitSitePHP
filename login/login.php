@@ -4,7 +4,9 @@
         
         <?php
 
-        if (mysql_connect("95.154.67.183", "pavelisaenko_xyz_login", "George_Orwel_1984", "visit_site_db") == true){
+        $connection = mysql_connect("95.154.67.183", "pavelisaenko_xyz_login", "George_Orwel_1984", "visit_site_db");
+
+        if ($connection == true){
             echo "Connection with database established!";
         } else {
             echo "Error: Can not connect to database! " .mysql_connect_error();
