@@ -60,7 +60,24 @@ include "./general/footer.php";
 
 
         
+if (isset($_POST["login"]) and isset($_POST["passwd"])){
+  $login = $_POST["login"];
+  $passwd = CRYPT($_POST["passwd"]);
+  echo "login: $login <br> password: $passwd <br>";
+  $username = $login;
+  
 
+  $link = new mysqli("95.154.67.183", "pavelisaenko_xyz_login", "George_Orwel_1984", "visit_site_db");
+
+  if ($link == true){
+      echo "Connection with database established!";
+      
+  } else {
+      echo "Error: " .mysqli_connect_error();
+  }
+}
+
+$_SESSION['username'] = $username;
 
 
 $_SESSION['p'] = $p;
